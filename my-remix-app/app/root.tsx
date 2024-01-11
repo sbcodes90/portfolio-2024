@@ -25,12 +25,16 @@ export default function App() {
       <head>
         <Meta />
         <Links />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+
       </head>
       <body>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+
       </body>
     </html>
   );
