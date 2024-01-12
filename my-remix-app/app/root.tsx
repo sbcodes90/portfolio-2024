@@ -8,6 +8,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import stylesheet from "../app/tailwind.css"
+import Navigation from "./components/Navigation";
 
 export const meta: MetaFunction = () => [{
   charset: "utf-8",
@@ -28,6 +29,7 @@ export default function App() {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
 
       </head>
+      <Navigation />
       <body>
         <Outlet />
         <ScrollRestoration />
