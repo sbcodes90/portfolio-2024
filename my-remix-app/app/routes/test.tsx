@@ -54,12 +54,12 @@ function test() {
 
           </div>
         </section>
-        <section className="lg:pt-[50px] bg-[#e6d06b]">
-          <div className="grid grid-cols-1 place-items-center lg:grid-cols-2">
+        <section className="lg:pt-[50px] bg-[#e6d06b] pb-[100px]">
+          <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 pt-[100px]">
           <p>Auth App</p>
           <div>
            <img src={variantPrint} alt="placeholder" />
-           <button className="bg-transparent text-black font-semibold py-2 px-10 border border-black hover:bg-black hover:text-white float-right rounded">
+           <button className="bg-transparent text-black font-semibold py-2 px-10 border border-black hover:bg-black hover:text-white rounded">
                 Github
               </button>
               </div>
