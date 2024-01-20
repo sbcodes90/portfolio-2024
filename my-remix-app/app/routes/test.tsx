@@ -15,16 +15,15 @@ function test() {
     <>
       <div className=" w-full">
         <img src={mbanner} alt="banner" className=" h-full" />
-        <section className="bg-[#221408e0] grid grid-cols-1 lg:px-[100px] lg:py-[25px] lg:grid-cols-2  place-items-center">
+        <section className="bg-[#221408e0] grid grid-cols-1 lg:px-[100px] lg:py-[100px] lg:grid-cols-2  place-items-center">
         <span className="lg:hidden font-regular text-white mt-[50px]">ABOUT</span>
         <img src={avi} alt="me" />
 
-          <p className="text-md text-white font-normmal mt-[50px] px-[30px] lg:px-[0px] lg:mt-[20px] text-center">
+          <p className="text-md text-white font-normmal mt-[50px] px-[30px] lg:mt-[20px] text-center">
             
-            I'm Sydney Burrell, a Software Developer with focus on Front End
-            Development. I'm a native of Philadelphia, PA, and you can always
-            find me me around the city trying out new foodie spots, or at a
-            comedy show. <br></br>
+            Hey I'm Sydney Burrell. I've worn many hats in the tech and design field. I started out in Graphic Design, transitioned to UX Design, dabbled in Email Design, Development, and Deployment, to Web Development then finally finding my home in Software Development. I am a Front End
+            Developer specializing in React JS for the past 5 years. I'm a native of Philadelphia, PA with a love for food, and cooking. You can always catch me
+            somewhere around the city trying out new restaurants, or at a comedy show. I love to laugh. <br></br>
             <br></br>~ "A day without laughter is wasted."-Charlie Chapman
             <div className="flex gap-[20px] mt-[20px] pt-[50px] pb-[50px] place-content-center">
               <button className="bg-transparent text-white font-semibold py-2 px-4 border border-white  rounded">
@@ -42,15 +41,20 @@ function test() {
             Personal Projects
           </p>
           <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 bg-[#e3bb05]">
+
             <img src={foodieApp} alt="placeholder" />
-            <p>Meal App</p>
-            <div className="flex gap-[20px] mt-[20px] pb-[50px] place-content-left">
+            <div>
+            <p className="font-black text-center">Meal App</p>
+            <p className="px-[50px] py-[25px] font-medium lg:px-[100px]">As a self proclaimed foodie, sometimes at home I want to try to random recipes, so I decided to make a application that browses for you. The Meal API app utilizes a free public API (insert here)</p>
+   
+            <div className="flex gap-[20px] mt-[20px] pb-[50px] place-content-center">
               <button className="bg-transparent text-black font-semibold py-2 px-10 border border-black  hover:bg-black hover:text-white  rounded">
                 <Link to="https://65ab32bd70a8274031649eb1--mealappbysb.netlify.app/" target="blank">Preview</Link></button>
         
               <button className="bg-transparent text-black font-semibold py-2 px-10 border border-black hover:bg-black hover:text-white  rounded">
                 Github
               </button>
+            </div>
             </div>
 
           </div>
@@ -68,6 +72,25 @@ function test() {
         </section>
         <section className="h-screen  bg-[#e3bb05]">
           <p className="text-center text-2xl font-black pt-[100px]">D3.js Charts</p>
+          <div className="grid grid-cols-1 gap-10 p-10 lg:grid-cols-2">
+            <div className="border-2 border-solid border-white rounded-2xl w-full h-full px-10 py-5">
+              <p className="text-center">Line Graph</p>
+              <iframe
+              src="https://codesandbox.io/embed/n4qsf7?view=Editor+%2B+Preview&module=%2Fsrc%2FLineChart.js"
+              className="w-[100%] h-[500px] border-0 rounded-[4px] overflow-hidden"
+              title="D3 line chart"
+              allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+              sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+            ></iframe>
+            </div>
+            <div className="border-2 border-solid border-white rounded-2xl">
+              <p className="text-center">Bar Graph</p>
+            </div>
+
+          </div>
+        </section>
+        <section className="bg-[#e6d06b] pt-[100px] h-screen">
+          <p className="text-center text-2xl font-black">React Challenges</p>
         </section>
       </div>
     </>
