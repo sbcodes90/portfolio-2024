@@ -8,6 +8,7 @@ import mbanner from "../images/mobile-banner.png";
 import placeholderImage from "../images/placeholder.png";
 import foodieApp from "../images/foodie-mobile.png";
 import variantPrint from "../images/yellow-variant-background.png";
+import { Link } from "@remix-run/react";
 
 function test() {
   return (
@@ -45,8 +46,8 @@ function test() {
             <p>Meal App</p>
             <div className="flex gap-[20px] mt-[20px] pb-[50px] place-content-left">
               <button className="bg-transparent text-black font-semibold py-2 px-10 border border-black  hover:bg-black hover:text-white  rounded">
-                Preview
-              </button>
+                <Link to="https://65ab32bd70a8274031649eb1--mealappbysb.netlify.app/" target="blank">Preview</Link></button>
+        
               <button className="bg-transparent text-black font-semibold py-2 px-10 border border-black hover:bg-black hover:text-white  rounded">
                 Github
               </button>
