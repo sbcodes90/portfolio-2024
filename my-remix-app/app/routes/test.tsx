@@ -127,6 +127,13 @@ function test() {
 
           </div>
         </section>
+
+        <section className="pt-[100px]  bg-black h-screen">
+          <p className="text-2xl text-white font-bold text-center">
+          Footer
+          </p>
+          
+        </section>
      
     
       </div>
