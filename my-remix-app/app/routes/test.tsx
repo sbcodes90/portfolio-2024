@@ -13,9 +13,9 @@ import { Link } from "@remix-run/react";
 function test() {
   return (
     <>
-      <div className=" w-full">
-        <img src={mbanner} alt="banner" className=" h-full" />
-        <section className="bg-white grid grid-cols-1 lg:px-[100px] lg:py-[75px] lg:grid-cols-2  place-items-center">
+      <div className="w-full">
+        <img src={mbanner} alt="banner" className=" h-full w-full" />
+        <section className=" bg-[#e6d06b] grid grid-cols-1 lg:px-[100px] lg:py-[75px] lg:grid-cols-2  place-items-center">
         <span className="lg:hidden font-regular text-white mt-[50px]">ABOUT</span>
         <img src={avi} alt="me" />
 
@@ -34,6 +34,12 @@ function test() {
               </button>
             </div>
           </p>
+        </section>
+        <section className="pt-[100px]  bg-black h-screen">
+          <p className="text-2xl text-white font-bold text-center">
+            Tech Stack
+          </p>
+          
         </section>
 
         <section className="pt-[100px]  bg-[#e3bb05]">
@@ -90,6 +96,18 @@ function test() {
 
           </div>
         </section>
+        <section className="lg:pt-[50px] bg-[#e6d06b] pb-[100px]">
+          <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 pt-[100px]">
+          <p>Swift UI App</p>
+          <div>
+           <img src={variantPrint} className="w-[500px]"  alt="placeholder" />
+           <button className="bg-transparent text-black font-semibold py-2 px-10 border border-black hover:bg-black hover:text-white rounded">
+                Github
+              </button>
+              </div>
+         </div>
+        </section>
+     
         <section className="h-screen  bg-[#e3bb05]">
           <p className="text-center text-2xl font-black pt-[100px]">D3.js Charts</p>
           <div className="grid grid-cols-1 gap-10 p-10 lg:grid-cols-2">
@@ -110,9 +128,7 @@ function test() {
           </div>
         </section>
      
-        <section className="bg-[#e6d06b] pt-[100px] h-screen">
-          <p className="text-center text-2xl font-black">React Challenges</p>
-        </section>
+    
       </div>
     </>
   );
