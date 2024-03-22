@@ -58,7 +58,7 @@ function Index() {
         <p className="text-4xl text-white font-bold text-center pt-20 bg-black">
             Tech Stack
           </p> 
-        <section className="h-screen bg-black  grid grid-cols-5 gap-4 place-items-center px-40 pt-20 ">
+        <section className="h-screen bg-black  grid grid-cols-5 gap-4 place-items-center px-40 pt-20 pb-10 ">
          
 
           <img src={reactlogo} alt="react" className="w-20 h-20" />
@@ -81,7 +81,7 @@ function Index() {
 
         </section>
 
-        <section className="pt-[100px]  bg-[#e3bb05]">
+        <section className="pt-[100px]  bg-[#e3bb05] pb-[100px]">
           <p className="text-2xl font-black text-center">Personal Projects</p>
           <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 bg-[#e3bb05]">
             <img src={foodieApp} className="w-[500px]" alt="placeholder" />
