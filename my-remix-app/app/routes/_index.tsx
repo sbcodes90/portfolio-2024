@@ -19,6 +19,7 @@ import aws from "../images/aws.png";
 import java from "../images/java.png";
 import springboot from "../images/springboot.png";
 import adobe from "../images/adobe.png";
+import authappic from "../images/authapppic.png";
 
 
 
@@ -59,8 +60,6 @@ function Index() {
             Tech Stack
           </p> 
         <section className="h-screen bg-black  grid grid-cols-5 gap-4 place-items-center px-40 pt-20 pb-10 ">
-         
-
           <img src={reactlogo} alt="react" className="w-20 h-20" />
           <img src={javascriptLogo} alt="javascript" className="w-20 h-20" />
           <img src={html5} alt="html5" className="w-20 h-20" />
@@ -76,9 +75,6 @@ function Index() {
           <img src={java} alt="java" className="w-20 h-20" />
           <img src={springboot} alt="springboot" className="w-40 h-10" />
           <img src={adobe} alt="adobe-creative-suite" className="w-40 h-40" />
-
-
-
         </section>
 
         <section className="pt-[100px]  bg-[#e3bb05] pb-[100px]">
@@ -111,11 +107,12 @@ function Index() {
             </div>
           </div>
         </section>
-        <section className="lg:pt-[50px] bg-[#e6d06b] pb-[100px]">
+        <section className="lg:pt-[50px] bg-[#e6d06b] pb-[100px] px-20">
           <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 pt-[100px]">
-            <p>Auth App</p>
+            <p><strong>Authentication</strong>
+            <br></br> I have always been fascinated by the process of authentication on web applications, so I decided to take matters into my own hands and develop a full-stack web application. The application employs <strong>React, React Router 6, Tailwind CSS, and Node.js</strong>, and is connected to a <strong>MongoDB database. </strong> This feature-rich application enables users to create and delete profiles, as well as sign up and log in with password encryption using bcrypt.js. To ensure a seamless user experience, the application includes form validations and a JWT token that unlocks access to a highly confidential database. I invite you to explore this web application and experience its robust functionalities.</p>
             <div>
-              <img src={variantPrint} className="w-[500px]" alt="placeholder" />
+              <img src={authappic} className="w-[500px]" alt="placeholder" />
               <button className="bg-transparent text-black font-semibold py-2 px-10 border border-black hover:bg-black hover:text-white rounded">
                 Github
               </button>
