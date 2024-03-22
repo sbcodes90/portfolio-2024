@@ -8,9 +8,5 @@ export default {
   plugins: [
     require('flowbite/plugin')
   ],
-  extend: {
-    backgroundImage: {
-      'hero': "url('/images/blackbackground.png')",
-    },
-}
+
 } satisfies Config
