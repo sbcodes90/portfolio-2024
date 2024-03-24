@@ -3,23 +3,8 @@ import mbanner from "../images/mobile-banner.png";
 import foodieApp from "../images/foodie-mobile.png";
 import variantPrint from "../images/yellow-variant-background.png";
 import { Link } from "@remix-run/react";
-import reactlogo from "../images/reactlogo.png";
-import javascriptLogo from "../images/js.png";
-import html5 from "../images/html5.png";
-import figma from "../images/figma.png";
-import css from "../images/css.png";
-import mongodb from "../images/Mongodb.png";
-import bootstrapcss from "../images/bootstrap.png";
-import materialUi from "../images/materialuilogo.png";
-import nodejs from "../images/nodejs.png";
-import reactRemix from "../images/remix.png";
-import reactRouter from "../images/reactrouter.png";
-import nextJs from "../images/nextjs.png";
-import aws from "../images/aws.png";
-import java from "../images/java.png";
-import springboot from "../images/springboot.png";
-import adobe from "../images/adobe.png";
-import authappic from "../images/authapppic.png";
+import TechStack from "~/components/TechStack";
+import authappic from "../images/authapppic.png"
 
 
 
@@ -56,26 +41,7 @@ function Index() {
             </div>
           </p>
         </section>
-        <p className="text-4xl text-white font-bold text-center pt-20 bg-black">
-            Tech Stack
-          </p> 
-        <section className="h-screen bg-black  grid grid-cols-5 gap-4 place-items-center px-40 pt-20 pb-10 ">
-          <img src={reactlogo} alt="react" className="w-20 h-20" />
-          <img src={javascriptLogo} alt="javascript" className="w-20 h-20" />
-          <img src={html5} alt="html5" className="w-20 h-20" />
-          <img src={figma} alt="figma" className="w-20 h-20" />
-          <img src={css} alt="css" className="w-20 h-20" />
-          <img src={materialUi} alt="material-ui" className="w-30 h-20" />
-          <img src={nodejs} alt="node-js" className="w-40 h-40" />
-          <img src={bootstrapcss} alt="bootstrap-css" className="w-30 h-20" />
-          <img src={reactRemix} alt="react-remix" className="w-30 h-20" />
-          <img src={mongodb} alt="mongodb" className="w-30 h-20" />
-          <img src={reactRouter} alt="react-router" className="w-40 h-40" />
-          <img src={nextJs} alt="nextjs" className="w-20 h-20" />
-          <img src={java} alt="java" className="w-20 h-20" />
-          <img src={springboot} alt="springboot" className="w-40 h-10" />
-          <img src={adobe} alt="adobe-creative-suite" className="w-40 h-40" />
-        </section>
+   
 
         <section className="pt-[100px]  bg-[#e3bb05] pb-[100px]">
           <p className="text-2xl font-black text-center">Personal Projects</p>
@@ -180,10 +146,7 @@ function Index() {
             </div>
           </div>
         </section>
-
-        <section className="pt-[100px]  bg-black h-screen">
-          <p className="text-2xl text-white font-bold text-center">Footer</p>
-        </section>
+<TechStack />
       </div>
     </>
   );
