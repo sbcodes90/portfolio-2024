@@ -18,7 +18,7 @@ function Index() {
         <section className=" bg-white grid grid-cols-1 lg:grid-cols-2 pt-14 lg:px-20 lg:py-10  place-items-center">
           <img src={avi} alt="me" />
 
-          <p className="text-sm text-black px-40 font-medium mt-[50px] lg:pt-10 lg:px-[30px] lg:mt-[20px]  justify-normal">
+          <p className="text-sm text-black px-20 font-medium mt-[50px] lg:pt-10 lg:px-[30px] lg:mt-[20px]  justify-normal">
             Hey there, I'm Sydney Burrell, and I've worn multiple hats in the
             tech and design field. I started out as a Graphic Designer,
             transitioned to UX Design, and then dabbled in Email Design,
@@ -54,7 +54,7 @@ function Index() {
 
             <div className="rounded-3xl shadow-2xl lg:mr-20 mx-10 bg-[#ffffff] border-black border-2">
               <p className="font-black text-center mt-5 text-black">Meal App</p>
-              <p className=" font-normal text-sm px-5 py-5 text-center lg:px-[50px] text-black">
+              <p className=" font-normal text-sm px-20 py-5 text-center lg:px-[50px] text-black">
                 As a self proclaimed foodie, sometimes at home I want to try to
                 random recipes, so I decided to make a application that browses
                 for you. The Meal API app utilizes a free public API (insert
@@ -85,6 +85,7 @@ function Index() {
             <div className=" md:hidden lg:hidden"> 
             <img src={authappic} className=" mt-5 pb-10 lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
           </div>
+          <div className="px-10">
             <p className="text-sm">I have always been fascinated by the process of authentication on
             web applications, so I decided to take matters into my own hands and
             develop a full-stack web application. The application employs</p>
@@ -97,6 +98,7 @@ function Index() {
             application includes form validations and a JWT token that unlocks
             access to a highly confidential database. I invite you to explore
             this web application and experience its robust functionalities.</p>
+            </div>
             <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-2 gap-5 pt-10 md:pt-5 lg:pt-5 pb-20 px-20 lg:px-0">
             <button className="text-white border-white border-2  px-2  md:px-10 lg:px-10 py-2 rounded-2xl lg:mt-5">Check it out</button>
             <button className="text-white border-white border-2 px-2  md:px-10 lg:px-10 py-2 rounded-2xl lg:mt-5 lg:ml-5">GitHub</button>
@@ -104,7 +106,7 @@ function Index() {
           </div>
 
           <div className="hidden md:block lg:block"> 
-            <img src={authappic} className="mt-10 md:w-[500px] lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
+            <img src={authappic} className="pb-20 md:w-[500px] lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
           </div>
         </section>
 
@@ -123,8 +125,8 @@ function Index() {
           </div>
         </section>
 
-        <section className="h-screen  bg-[#e3bb05]">
-          <p className="text-center text-2xl font-black pt-[100px]">
+        <section className=" bg-[#e3bb05]">
+          <p className="text-center text-2xl font-black pt-[50px]">
             D3.js Charts
           </p>
           <div className="grid grid-cols-1 gap-10 p-10 lg:grid-cols-2">
@@ -132,14 +134,11 @@ function Index() {
               <p className="text-center">Line Graph</p>
               <iframe
                 src="https://codesandbox.io/embed/n4qsf7?view=Editor+%2B+Preview&module=%2Fsrc%2FLineChart.js"
-                className="w-[100%] h-[500px] border-0 rounded-[4px] overflow-hidden"
+                className="w-[100%] h-[200px] md:h-[500px] lg:h-[500px] border-0 rounded-[4px] overflow-hidden"
                 title="D3 line chart"
                 allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
                 sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
               ></iframe>
-            </div>
-            <div className="border-2 border-solid border-white rounded-2xl">
-              <p className="text-center">Bar Graph</p>
             </div>
           </div>
         </section>
