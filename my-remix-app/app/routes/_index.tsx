@@ -113,14 +113,35 @@ function Index() {
 
 
 
-        <section className="lg:pt-[50px] bg-[#e6d06b] pb-[100px]">
-          <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 pt-[100px]">
-            <p>Swift UI App</p>
-            <div>
-              <img src={variantPrint} className="w-[500px]" alt="placeholder" />
-              <button className="bg-transparent text-black font-semibold py-2 px-10 border border-black hover:bg-black hover:text-white rounded">
-                Github
-              </button>
+        <section className=" lg:px-20 pt-10 bg-cyan">
+          <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 rounded-3xl py-10">
+            <div className="font-black text-xl pb-5 ">Swift UI Card Game</div>
+          <img src={foodieApp} className=" pb-10 w-[400px] lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
+
+
+            <div className="rounded-3xl shadow-2xl lg:mr-20 mx-10 bg-[#ffffff] border-black border-2">
+              <p className="font-black text-center mt-5 text-black">Swift UI Mobile App</p>
+              <p className=" font-normal text-sm px-20 py-5 text-center lg:px-[50px] text-black">
+                As a self proclaimed foodie, sometimes at home I want to try to
+                random recipes, so I decided to make a application that browses
+                for you. The Meal API app utilizes a free public API (insert
+                here)
+              </p>
+
+              <div className="flex flex-col justify-center items-center lg:flex-row lg:gap-[20px] mt-[20px] pb-[50px] lg:place-content-center">
+                <button className="bg-black text-white font-semibold py-2 px-[45px] mb-2 border border-black  hover:bg-black hover:text-white  rounded-2xl">
+                  <Link
+                    to="https://65ab32bd70a8274031649eb1--mealappbysb.netlify.app/"
+                    target="blank"
+                  >
+                    Preview
+                  </Link>
+                </button>
+
+                <button className="bg-black text-white font-semibold py-2 px-[50px] border border-black hover:bg-black hover:text-white  rounded-2xl">
+                  Github
+                </button>
+              </div>
             </div>
           </div>
         </section>
