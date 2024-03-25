@@ -106,21 +106,18 @@ function Index() {
           </div>
 
           <div className="hidden md:block lg:block"> 
-            <img src={authappic} className="pb-20 md:w-[500px] lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
+            <img src={authappic} className="pb-20 md:w-[500px] lg:pt-20 lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
           </div>
         </section>
 
 
-
-
-        <section className=" lg:px-20 pt-10 bg-cyan">
+        <section className="lg:px-20 pt-10">
           <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 rounded-3xl py-10">
-            <div className="font-black text-xl pb-5 ">Swift UI Card Game</div>
-          <img src={foodieApp} className=" pb-10 w-[400px] lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
+          <img src={foodieApp} className="pb-10  grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
 
 
             <div className="rounded-3xl shadow-2xl lg:mr-20 mx-10 bg-[#ffffff] border-black border-2">
-              <p className="font-black text-center mt-5 text-black">Swift UI Mobile App</p>
+              <p className="font-black text-center mt-5 text-black">Meal App</p>
               <p className=" font-normal text-sm px-20 py-5 text-center lg:px-[50px] text-black">
                 As a self proclaimed foodie, sometimes at home I want to try to
                 random recipes, so I decided to make a application that browses
@@ -145,6 +142,8 @@ function Index() {
             </div>
           </div>
         </section>
+
+    
 
         <section className=" bg-[#e3bb05]">
           <p className="text-center text-2xl font-black pt-[50px]">
