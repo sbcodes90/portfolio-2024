@@ -15,7 +15,7 @@ function Index() {
     <>
       <div className="w-full">
         <img src={mbanner} alt="banner" className=" h-full w-full" />
-        <section className=" bg-white grid grid-cols-1 pt-14 lg:px-[100px] lg:py-[75px] lg:grid-cols-2  place-items-center">
+        <section className=" bg-white grid grid-cols-2 pt-14 lg:px-20 lg:py-10 lg:grid-cols-2  place-items-center">
           <img src={avi} alt="me" />
 
           <p className="text-sm text-black font-medium mt-[50px] lg:pt-10 px-[50px] lg:px-[30px] lg:mt-[20px]  justify-normal">
@@ -28,7 +28,7 @@ function Index() {
             abilities to tackle any challenge that comes my way. I'm native to
             Philadelphia, PA, and I love to explore new restaurants and attend
             comedy shows around the city. Laughter is my medicine, and I truly
-            believe in the quote,{" "}
+            believe in the quote
             <br></br>
             <strong>
               "A day without laughter is wasted" by Charlie Chapman.
@@ -43,14 +43,14 @@ function Index() {
             </div>
           </p>
         </section>
-   
+
         <section className=" lg:px-20 pt-10">
           <div className="flex justify-center items-center">
-        <img src={personalProjectHeader} alt="Personal-Projects-Header" />
-        </div>
-            <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 rounded-3xl py-10"> 
-           
-            <img src={foodieApp} className="pb-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rotate-45..." alt="placeholder" />
+            <img src={personalProjectHeader} alt="Personal-Projects-Header" />
+          </div>
+          <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 rounded-3xl py-10">
+          <img src={foodieApp} className=" pb-10 w-[400px] lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
+
 
             <div className="rounded-3xl shadow-2xl lg:mr-20 mx-10 bg-[#ffffff] border-black border-2">
               <p className="font-black text-center mt-5 text-black">Meal App</p>
@@ -79,50 +79,38 @@ function Index() {
           </div>
         </section>
 
-        <section className=" bg-cyan px-20">
-          {/* <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 bg-gradient-to-r from-yellow-300 to-yellow-400 rounded-3xl py-10"> */}
-         {/*    <div className="grid grid-cols-1 place-items-center lg:grid-cols-2  rounded-3xl py-10 shadow-2xl border-white border-2"> 
+        <section className="bg-black grid grid-cols-1 lg:grid-cols-2  justify-items-center lg:py-20 lg:px-20">
+          <div className="text-white grid-col-1 px-20">
+            <p className="pt-20 text-xl font-bold pb-5 text-center lg:text-left md:text-left">Authentication App</p>
+            <div className=" md:hidden lg:hidden"> 
+            <img src={authappic} className=" mt-5 pb-10 lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
+          </div>
+            <p className="text-sm">I have always been fascinated by the process of authentication on
+            web applications, so I decided to take matters into my own hands and
+            develop a full-stack web application. The application employs</p>
+            <p className="font-bold text-teal-300 text-sm">React, React Router 6, Tailwind CSS, and Node.js,
+            and is connected to a MongoDB database. </p> 
+            <p className="pt-5 text-sm">This
+            feature-rich application enables users to create and delete
+            profiles, as well as sign up and log in with password encryption
+            using bcrypt.js. To ensure a seamless user experience, the
+            application includes form validations and a JWT token that unlocks
+            access to a highly confidential database. I invite you to explore
+            this web application and experience its robust functionalities.</p>
+            <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-2 gap-5 pt-10 md:pt-5 lg:pt-5 pb-20 px-20 lg:px-0">
+            <button className="text-white border-white border-2  px-2  md:px-10 lg:px-10 py-2 rounded-2xl lg:mt-5">Check it out</button>
+            <button className="text-white border-white border-2 px-2  md:px-10 lg:px-10 py-2 rounded-2xl lg:mt-5 lg:ml-5">GitHub</button>
+</div>
+          </div>
 
-            <img src={foodieApp} className="pb-5" alt="placeholder" />
-            <div className="bg-white rounded-3xl shadow-2xl lg:mr-20 mx-10  border-cyan border-2">
-              <p className="font-black text-center mt-5 text-black">Meal App</p>
-              <p className=" font-normal text-sm px-5 py-5 text-center lg:px-[50px] text-black">
-                As a self proclaimed foodie, sometimes at home I want to try to
-                random recipes, so I decided to make a application that browses
-                for you. The Meal API app utilizes a free public API (insert
-                here)
-              </p>
-
-              <div className="flex flex-col justify-center items-center lg:flex-row lg:gap-[20px] mt-[20px] pb-[50px] lg:place-content-center">
-                <button className="bg-transparent text-black font-semibold py-2 px-[45px] mb-2 border border-black  hover:bg-black hover:text-white  rounded">
-                  <Link
-                    to="https://65ab32bd70a8274031649eb1--mealappbysb.netlify.app/"
-                    target="blank"
-                  >
-                    Preview
-                  </Link>
-                </button>
-
-                <button className="bg-transparent text-black font-semibold py-2 px-[50px] border border-black hover:bg-black hover:text-white  rounded">
-                  Github
-                </button>
-              </div>
-            </div>
-          </div> */}
-        </section>
-        <section className="lg:pt-[50px] bg-[#e6d06b] pb-[100px] px-20">
-          <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 pt-[100px]">
-            <p><strong>Authentication</strong>
-            <br></br> I have always been fascinated by the process of authentication on web applications, so I decided to take matters into my own hands and develop a full-stack web application. The application employs <strong>React, React Router 6, Tailwind CSS, and Node.js</strong>, and is connected to a <strong>MongoDB database. </strong> This feature-rich application enables users to create and delete profiles, as well as sign up and log in with password encryption using bcrypt.js. To ensure a seamless user experience, the application includes form validations and a JWT token that unlocks access to a highly confidential database. I invite you to explore this web application and experience its robust functionalities.</p>
-            <div>
-              <img src={authappic} className="w-[500px]" alt="placeholder" />
-              <button className="bg-transparent text-black font-semibold py-2 px-10 border border-black hover:bg-black hover:text-white rounded">
-                Github
-              </button>
-            </div>
+          <div className="hidden md:block lg:block"> 
+            <img src={authappic} className=" mt-10 lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
           </div>
         </section>
-    
+
+
+
+
         <section className="lg:pt-[50px] bg-[#e6d06b] pb-[100px]">
           <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 pt-[100px]">
             <p>Swift UI App</p>
@@ -155,7 +143,7 @@ function Index() {
             </div>
           </div>
         </section>
-<TechStack />
+        <TechStack />
       </div>
     </>
   );
