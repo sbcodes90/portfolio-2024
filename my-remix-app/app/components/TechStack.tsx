@@ -17,26 +17,26 @@ import springboot from "../images/springboot.png";
 import adobe from "../images/adobe.png";
 export default function TechStack() {
   return (
-    <div>
-      <p className="text-4xl text-white font-bold text-center pt-20 bg-black">
+    <div className="w-full h-full">
+      <p className=" text-xl lg:text-4xl text-white font-bold text-center pt-20 bg-black">
         Tech Stack
       </p>
-      <section className="h-screen bg-black  grid grid-cols-5 gap-4 place-items-center px-40 pt-20 pb-10 ">
-        <img src={reactlogo} alt="react" className="w-20 h-20" />
-        <img src={javascriptLogo} alt="javascript" className="w-20 h-20" />
-        <img src={html5} alt="html5" className="w-20 h-20" />
-        <img src={figma} alt="figma" className="w-20 h-20" />
-        <img src={css} alt="css" className="w-20 h-20" />
-        <img src={materialUi} alt="material-ui" className="w-30 h-20" />
-        <img src={nodejs} alt="node-js" className="w-40 h-40" />
-        <img src={bootstrapcss} alt="bootstrap-css" className="w-30 h-20" />
-        <img src={reactRemix} alt="react-remix" className="w-30 h-20" />
-        <img src={mongodb} alt="mongodb" className="w-30 h-20" />
-        <img src={reactRouter} alt="react-router" className="w-40 h-40" />
-        <img src={nextJs} alt="nextjs" className="w-20 h-20" />
-        <img src={java} alt="java" className="w-20 h-20" />
-        <img src={springboot} alt="springboot" className="w-40 h-10" />
-        <img src={adobe} alt="adobe-creative-suite" className="w-40 h-40" />
+      <section className="h-screen bg-black  grid  grid-cols-3 lg:grid-cols-5 gap-4 place-items-center px-40 pt-20 pb-50 ">
+        <img src={reactlogo} alt="react" className="lg:w-20 lg:h-20" />
+        <img src={javascriptLogo} alt="javascript" className="lg:w-20 lg:h-20" />
+        <img src={html5} alt="html5" className="lg:w-20 lg:h-20" />
+        <img src={figma} alt="figma" className="w-40 h-20" />
+        <img src={css} alt="css" className="lg:w-20 lg:h-20" />
+        <img src={materialUi} alt="material-ui" className="lg:w-30 lg:h-20" />
+        <img src={nodejs} alt="node-js" className="lg:w-40 lg:h-40" />
+        <img src={bootstrapcss} alt="bootstrap-css" className="lg:w-30 lg:h-20" />
+        <img src={reactRemix} alt="react-remix" className="lg:w-30 lg:h-20" />
+        <img src={mongodb} alt="mongodb" className="lg:w-30 lg:h-20" />
+        <img src={reactRouter} alt="react-router" className="l:w-40 lg:h-40" />
+        <img src={nextJs} alt="nextjs" className="lg:w-20 lg:h-20" />
+        <img src={java} alt="java" className="lg:w-20 lg:h-20" />
+        <img src={springboot} alt="springboot" className="lg:w-40 lg:h-10" />
+        <img src={adobe} alt="adobe-creative-suite" className="lg:w-40 lg:h-40" />
       </section>
     </div>
   );
