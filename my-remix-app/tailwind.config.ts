@@ -6,8 +6,7 @@ export default {
     extend: {},
       colors: { 
         'cyan': '#d3b00c',
-          
-        // ...
+      
     },
   },
   plugins: [
