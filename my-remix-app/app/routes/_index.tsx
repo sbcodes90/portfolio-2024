@@ -13,12 +13,12 @@ function Index() {
   
   return (
     <>
-      <div className="w-full">
-        <img src={mbanner} alt="banner" className=" h-full w-full" />
-        <section className=" bg-white grid grid-cols-2 pt-14 lg:px-20 lg:py-10 lg:grid-cols-2  place-items-center">
+      <div>
+        <img src={mbanner} alt="banner" className=" h-full w-full " />
+        <section className=" bg-white grid grid-cols-1 lg:grid-cols-2 pt-14 lg:px-20 lg:py-10  place-items-center">
           <img src={avi} alt="me" />
 
-          <p className="text-sm text-black font-medium mt-[50px] lg:pt-10 px-[50px] lg:px-[30px] lg:mt-[20px]  justify-normal">
+          <p className="text-sm text-black px-40 font-medium mt-[50px] lg:pt-10 lg:px-[30px] lg:mt-[20px]  justify-normal">
             Hey there, I'm Sydney Burrell, and I've worn multiple hats in the
             tech and design field. I started out as a Graphic Designer,
             transitioned to UX Design, and then dabbled in Email Design,
@@ -38,7 +38,7 @@ function Index() {
                 Contact
               </button>
               <button className="bg-transparent hover:bg-black hover:text-white border-2 border-black text-black font-semibold py-2 px-10   rounded-2xl">
-                See Work
+                Github
               </button>
             </div>
           </p>
@@ -62,7 +62,7 @@ function Index() {
               </p>
 
               <div className="flex flex-col justify-center items-center lg:flex-row lg:gap-[20px] mt-[20px] pb-[50px] lg:place-content-center">
-                <button className="bg-black text-white font-semibold py-2 px-[45px] mb-2 border border-black  hover:bg-black hover:text-white  rounded">
+                <button className="bg-black text-white font-semibold py-2 px-[45px] mb-2 border border-black  hover:bg-black hover:text-white  rounded-2xl">
                   <Link
                     to="https://65ab32bd70a8274031649eb1--mealappbysb.netlify.app/"
                     target="blank"
@@ -71,7 +71,7 @@ function Index() {
                   </Link>
                 </button>
 
-                <button className="bg-black text-white font-semibold py-2 px-[50px] border border-black hover:bg-black hover:text-white  rounded">
+                <button className="bg-black text-white font-semibold py-2 px-[50px] border border-black hover:bg-black hover:text-white  rounded-2xl">
                   Github
                 </button>
               </div>
@@ -104,7 +104,7 @@ function Index() {
           </div>
 
           <div className="hidden md:block lg:block"> 
-            <img src={authappic} className=" mt-10 lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
+            <img src={authappic} className="mt-10 md:w-[500px] lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="placeholder" />
           </div>
         </section>
 
