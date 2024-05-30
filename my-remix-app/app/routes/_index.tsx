@@ -1,12 +1,12 @@
 import avi from "../images/me.png";
 import mbanner from "../images/mobile-banner.png";
 import foodieApp from "../images/foodie-mobile.png";
-import variantPrint from "../images/yellow-variant-background.png";
 import { Link } from "@remix-run/react";
 import TechStack from "~/components/TechStack";
 import authappic from "../images/authapp.png";
-import personalProjectHeader from "../images/pp-header.png";
 import game from "../images/cardgame.png";
+import bebesworld from "../images/bebesworld.png";
+
 function Index() {
   return (
     <>
@@ -20,7 +20,7 @@ function Index() {
             tech and design field. I started out as a Graphic Designer,
             transitioned to UX Design, and then dabbled in Email Design,
             Development, and Deployment, Web Development, and finally found my
-            niche in Software Development. With five years of experience as a
+            niche in Software Development. With six years of experience as a
             Front End Developer specializing in React JS, I'm confident in my
             abilities to tackle any challenge that comes my way. I'm native to
             Philadelphia, PA, and I love to explore new restaurants and attend
@@ -41,11 +41,51 @@ function Index() {
           </p>
         </section>
 
-        <section className=" lg:px-20 pt-10">
+        <section className=" pt-10">
           <div className="flex justify-center items-center">
-            <img src={personalProjectHeader} alt="Personal-Projects-Header" />
           </div>
-          <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 rounded-3xl py-10">
+          <section className="bg-purple-900 grid grid-cols-1 lg:grid-cols-2  justify-items-center">
+          <div className="text-white grid-col-1 px-20">
+            <p className="pt-40 text-2xl font-bold pb-5 text-left text-teal-300 hidden md:block lg:block">
+              Bebe's World
+            </p>
+            <div className=" md:hidden lg:hidden">
+              <img
+                src={bebesworld}
+                className=" mt-5 lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                alt="bebes world"
+              />
+            </div>
+            <div>
+              <p className="text-xl font-bold md:hidden lg:hidden text-white">Bebe's World</p>
+            <p className="text-white font-bold">Tech Stack: React, Tailwind CSS</p>
+              <p className=" text-justify md:text-left lg:text-left pt-5 md:pt-0 lg:pt-0">
+               A Quiz App aimed at teaching kids how to code. Bebe is my actual dog in real life so I decided to design the logo in Photoshop based off of her. 
+               More quizzes, and activities to come...
+              </p>
+             
+            </div>
+            <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-2 gap-5 pt-10 md:pt-5 lg:pt-5 pb-20 lg:px-0">
+               <Link className="text-black font-semibold bg-teal-300 text-center  md:px-10 py-3 rounded-2xl lg:px-0 lg:mt-5"  to="https://bebesworld.netlify.app/"     target="blank">
+                View
+                </Link>
+        
+                <Link className=" text-center text-white font-semibold border-white border-2 px-2  md:px-10 lg:px-10 py-3 rounded-2xl lg:mt-5 lg:ml-5" to="https://github.com/sbcodes90/quiz-app"     target="blank">GitHub</Link>
+         
+            </div>
+          </div>
+
+          <div className="hidden md:block lg:block">
+            <img
+              src={bebesworld}
+              className="pb-20 md:w-[500px] lg:pt-20 lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              alt="placeholder"
+            />
+          </div>
+        </section>
+        </section>
+        <section>
+        <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 rounded-3xl py-10">
             <img
               src={foodieApp}
               className=" pb-10 w-[400px] lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
