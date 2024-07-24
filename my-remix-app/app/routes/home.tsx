@@ -6,7 +6,7 @@ import mobileHeader from "../images/mobileheader.png";
 
 export default function home() {
   return (
-    <div className="pb-10 bg-black">
+    {/* <div className="pb-10 bg-black">
     <div className=" h-screen flex flex-col col-span-2 justify-center items-center">
 
         <div>
@@ -19,6 +19,7 @@ export default function home() {
         </div>
     
     </div>
-    </div>
+    </div> */}
+    
   );
 }

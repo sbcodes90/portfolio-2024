@@ -10,7 +10,7 @@ import bebesworld from "../images/bebesworld.png";
 function Index() {
   return (
     <>
-      <div>
+    {/*   <div>
         <img src={mbanner} alt="banner" className=" h-full w-full " />
         <section className=" bg-white grid grid-cols-1 lg:grid-cols-2 pt-14 lg:px-20 lg:py-10  place-items-center">
           <img src={avi} alt="me" />
@@ -216,7 +216,7 @@ function Index() {
           </div>
         </section>
         <TechStack />
-      </div>
+      </div> */}
     </>
   );
 }
