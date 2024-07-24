@@ -16,10 +16,7 @@ function WebDevelopment() {
           </span>
         </h1>
         <h3 className="text-2xl font-bold  mb-4">Focus: Front End Developer</h3>
-        <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-          Here at Flowbite we focus on markets where technology, innovation, and
-          capital can unlock long-term value and drive economic growth.
-        </p>
+        
       </div>
 
       <section className="m-[50px] h-auto px-[50px] py-[30px] rounded-2xl">
