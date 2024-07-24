@@ -3,7 +3,7 @@ import { Link } from "@remix-run/react";
 function Navigation() {
   return (
     <>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+     {/*  <nav classNameName="bg-white border-gray-200 dark:bg-gray-900">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
           <Link
             to="/home"
@@ -52,8 +52,18 @@ function Navigation() {
             </ul>
           </div>
         </div>
-      </nav>
-    </>
+      </nav> */}
+ 
+    
+    <div className=" flex lg:flex-row justify-end p-5 bg-black text-white text-2xl">
+    <Link to="/ux" className="mr-6 font-Bebas">UX Design</Link>
+    <Link to="/Development" className="mr-6 font-Bebas">UI Development</Link>
+      <div className="mr-6 font-Bebas">About</div>
+      <div className="mr-6 font-Bebas">Contact</div>
+      </div>
+   
+ 
+  </>
   );
 }
 
